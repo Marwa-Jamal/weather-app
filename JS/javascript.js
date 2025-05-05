@@ -5,7 +5,7 @@ var countryName = document.getElementById("countryName");
 // ? app variables
 // & function
 
-async function USgetweather(){
+async function USGetweather(){
     if (navigator.geolocation) {
         navigator.geolocation.getCurrentPosition(async function showPosition(position) {
           var latitude = await position.coords.latitude;
@@ -92,7 +92,7 @@ function displayData(data){
 
 searchBtn.addEventListener("click", searchCountry);
 
-USgetweather();
+USGetweather();
 
 
 
