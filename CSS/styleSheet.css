@@ -1,0 +1,66 @@
+
+body{
+    background-color:  #262936;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+    color: inherit;
+}
+nav a{
+    color: inherit;
+    padding: 8px;
+    border-radius: 5%;
+}
+
+nav{
+    height: 6.25rem;
+    background-color:  #262936;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+}
+
+a.active{
+    background-color: blue;  
+    font-weight: bold; 
+}
+
+input{
+    border-radius: 30px;
+    padding: 10px;
+    border: none;
+}
+/* input:nth-of-type(1){
+    border: none;
+} */
+
+input[type="button"]{
+    width: 20%;
+    border: none;
+}
+
+input:focus{
+    outline: none;
+}
+
+form{
+    margin-inline: auto;
+}
+
+footer{
+    background-color: #262936;
+    padding-block: 50px;
+}
+
+main .container{
+    background-image: url(https://t3.ftcdn.net/jpg/01/26/35/58/360_F_126355834_UU0Q9hZQLD3xsjs8X6V1jb0tyIjfM3zg.jpg);
+    background-size: cover;
+}
+
+h1 a i {
+    color: rgb(89, 89, 237);
+}
